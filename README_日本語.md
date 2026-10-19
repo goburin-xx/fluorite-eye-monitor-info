@@ -11,7 +11,15 @@ Windows向け・モニター情報表示／目視診断ツール
 
 **最新版：v0.10.3**
 
-[**FluoriteEyeMonitorInfo.exe をダウンロードする（Windows）**](https://github.com/goburin-xx/fluorite-eye-monitor-info/releases/download/v0.10.3/FluoriteEyeMonitorInfo.exe)
+### ZIP版（おすすめ）
+
+[FluoriteEyeMonitorInfo_v0.10.3.zip をダウンロードする（Windows）](https://github.com/goburin-xx/fluorite-eye-monitor-info/releases/download/v0.10.3/FluoriteEyeMonitorInfo_v0.10.3.zip)
+
+ダウンロード後、ZIPファイルを展開し、中にある `FluoriteEyeMonitorInfo.exe` を実行してください。
+
+### EXE単体版
+
+[FluoriteEyeMonitorInfo.exe をダウンロードする（Windows）](https://github.com/goburin-xx/fluorite-eye-monitor-info/releases/download/v0.10.3/FluoriteEyeMonitorInfo.exe)
 
 [リリース情報・更新履歴を見る](https://github.com/goburin-xx/fluorite-eye-monitor-info/releases/tag/v0.10.3)
 
@@ -22,6 +30,8 @@ Windows向け・モニター情報表示／目視診断ツール
 初めて本ソフトを起動すると、WindowsのMicrosoft Defender SmartScreenにより「WindowsによってPCが保護されました」と表示される場合があります。
 
 個人開発のアプリなど、Windowsが発行元やアプリの評判を十分に確認できない場合にも、この警告が表示されることがあります。**この警告だけでウイルスと判断されたわけではありませんが、安全性が保証されたという意味でもありません。**
+
+また、本ソフトの配布用実行ファイルは、主要なセキュリティソフトを含む71種類のセキュリティエンジンを備えた**VirusTotal**でスキャン済みです。**66種類のセキュリティエンジンで良好な検査結果が得られました。** 一方、5種類のエンジンでは検出が報告されています。Python製アプリをEXE化した際には、機械的な判定によって誤検知が発生する場合があります。
 
 起動する前に、次の点を確認してください。
 
