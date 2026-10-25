@@ -1,4 +1,4 @@
-﻿# フローライト Eye モニター Info
+# フローライト Eye モニター Info
 
 **開発：株道経済研究所**  
 Windows向け・モニター情報表示／目視診断ツール
@@ -11,37 +11,43 @@ Windows向け・モニター情報表示／目視診断ツール
 
 **最新版：v0.10.3**
 
-### ZIP版（おすすめ）
+本ソフトは無料でご利用いただけます。用途に合わせて、次の3種類からダウンロードできます。
 
-[FluoriteEyeMonitorInfo_v0.10.3.zip をダウンロードする（Windows）](https://github.com/goburin-xx/fluorite-eye-monitor-info/releases/download/v0.10.3/FluoriteEyeMonitorInfo_v0.10.3.zip)
+### 1. インストーラー版（おすすめ）
 
-ダウンロード後、ZIPファイルを右クリックして「すべて展開」を選び、展開した `FluoriteEyeMonitorInfo_v0.10.3` フォルダー内の `FluoriteEyeMonitorInfo.exe` を実行してください。ZIPファイルを開いた画面から直接実行するのではなく、展開してから起動してください。
+[**FluoriteEyeMonitorInfo_Setup_v0.10.3.exe をダウンロード**](https://github.com/goburin-xx/fluorite-eye-monitor-info/releases/download/v0.10.3/FluoriteEyeMonitorInfo_Setup_v0.10.3.exe)
 
-### EXE単体版
+通常のWindowsソフトと同じようにインストールして使用できます。スタートメニューへの登録やアンインストールにも対応しています。
 
-[FluoriteEyeMonitorInfo.exe をダウンロードする（Windows）](https://github.com/goburin-xx/fluorite-eye-monitor-info/releases/download/v0.10.3/FluoriteEyeMonitorInfo.exe)
+### 2. ZIP版
+
+[**FluoriteEyeMonitorInfo_v0.10.3.zip をダウンロード**](https://github.com/goburin-xx/fluorite-eye-monitor-info/releases/download/v0.10.3/FluoriteEyeMonitorInfo_v0.10.3.zip)
+
+実行ファイルのほか、README、更新履歴、ライセンス、画面画像などをまとめたパッケージです。
+
+### 3. EXE単体版
+
+[**FluoriteEyeMonitorInfo.exe をダウンロード**](https://github.com/goburin-xx/fluorite-eye-monitor-info/releases/download/v0.10.3/FluoriteEyeMonitorInfo.exe)
+
+インストールせず、実行ファイルだけを使用したい方向けです。
 
 [リリース情報・更新履歴を見る](https://github.com/goburin-xx/fluorite-eye-monitor-info/releases/tag/v0.10.3)
-
-本ソフトは無料で配布しています。ダウンロード時は、公式リポジトリのリリースページから入手してください。
 
 ## Windowsのセキュリティ警告について
 
 初めて本ソフトを起動すると、WindowsのMicrosoft Defender SmartScreenにより「WindowsによってPCが保護されました」と表示される場合があります。
 
-個人開発のアプリなど、Windowsが発行元やアプリの評判を十分に確認できない場合にも、この警告が表示されることがあります。
-
-実行するか判断する際は、公式GitHubリリースから入手したファイルであることを確認してください。実行すると判断した場合、画面に「実行」ボタンが表示されていなければ「詳細情報」をクリックすると表示されます。ファイルの安全性に不安がある場合は、実行せずにキャンセルしてください。
-
-また、本ソフトの配布用実行ファイルは、主要なセキュリティソフトを含む71種類のセキュリティエンジンを備えた**VirusTotal**でスキャン済みです。**66種類のセキュリティエンジンで良好な検査結果が得られました。** 一方、5種類のエンジンでは検出が報告されています。Python製アプリをEXE化した際には、機械的な判定によって誤検知が発生する場合があります。
+個人開発のアプリなど、Windowsが発行元やアプリの評判を十分に確認できない場合にも、この警告が表示されることがあります。**この警告だけでウイルスと判断されたわけではありませんが、安全性が保証されたという意味でもありません。**
 
 起動する前に、次の点を確認してください。
 
 - ダウンロード元が、このREADMEに記載された公式GitHubリリースであること
-- ファイル名が `FluoriteEyeMonitorInfo.exe` であること
+- ファイル名が公式リリースに掲載されているものであること
 - 配布元やファイルに不審な点がないこと
 
 不安がある場合は、無理に実行せず、起動を中止してください。警告を回避するためにWindowsのセキュリティ機能を無効にする必要はありません。
+
+また、本ソフトの配布用実行ファイルは、VirusTotalでスキャン済みです。検査時には71種類のセキュリティエンジンのうち5種類で検出が報告されました。Python製アプリをEXE化した際には、誤検知が発生する場合があります。検出結果だけでウイルスまたは誤検知と断定することはできないため、公式配布先から入手したファイルをご利用ください。
 
 ## 主な機能
 
@@ -95,8 +101,8 @@ EDIDやWMIなどから取得できる情報を表示します。
 ## 動作環境・起動方法
 
 - **対象OS：** Windows
-- **配布形式：** EXE版
-- **起動方法：** ダウンロードしたEXEファイルを実行してください。
+- **配布形式：** インストーラー版・ZIP版・EXE単体版
+- **起動方法：** インストーラー版はセットアップ後に起動、ZIP版・EXE単体版は展開またはダウンロードした実行ファイルから起動してください。
 
 対応するWindowsのバージョンや追加の注意事項は、各リリースの説明をご確認ください。
 
